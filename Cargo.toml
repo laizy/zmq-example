@@ -11,6 +11,17 @@ path = "./src/01hello/client.rs"
 name = "helloserver"
 path = "./src/01hello/server.rs"
 
+[[bin]]
+name = "pub"
+path = "./src/02pubsub/pub.rs"
+
+[[bin]]
+name = "sub"
+path = "./src/02pubsub/sub.rs"
+
+[dependencies]
+rand = "*"
+
 [dependencies.zmq]
 version = "0.8"
 default-features = false
