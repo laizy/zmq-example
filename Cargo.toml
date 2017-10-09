@@ -19,6 +19,10 @@ path = "./src/02pubsub/pub.rs"
 name = "sub"
 path = "./src/02pubsub/sub.rs"
 
+[[bin]]
+name = "pubsubtest"
+path = "./src/03pubsubtest/pubsub.rs"
+
 [dependencies]
 rand = "*"
 
